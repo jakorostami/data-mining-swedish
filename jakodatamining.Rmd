@@ -27,6 +27,10 @@ library(plyr)
 ```
 
 ## Välkommen till denna genomgång av hur man minar, extrahearar, transformerar, visualiserar och imputerar data.
+## Datasetet kommer från https://openmv.net/info/travel-times och jag rekommenderar att du klickar där för 
+## att gå igenom beskrivningen av datasetet och variablerna innan du påbörjar detta. Det är en kort sammanfattning bara.
+
+#Då kör vi igång!
 
 ```{r}
 #Vi börjar med att definiera en funktion för att söka efter NAs
