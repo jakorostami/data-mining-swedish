@@ -26,11 +26,7 @@ library(lubridate)
 library(plyr)
 ```
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## Välkommen till denna genomgång av hur man minar, extrahearar, transformerar, visualiserar och imputerar data.
 
 ```{r}
 #Vi börjar med att definiera en funktion för att söka efter NAs
@@ -46,9 +42,7 @@ na_list <- function(x){
 
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
+#Vi hämtar hem data
 
 ```{r}
 
@@ -76,7 +70,7 @@ na_list(df)
 
 ```
 
-#Tredje steg
+#Vidare
 
 ```{r}
 #Jämför med en påhittad matris utan missing data
@@ -89,7 +83,7 @@ summary(df)
 
 ```
 
-#Fjärde steg
+#Nästa
 
 ```{r}
 
